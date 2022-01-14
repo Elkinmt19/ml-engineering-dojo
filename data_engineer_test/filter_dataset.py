@@ -25,7 +25,7 @@ def main():
     # Create a new file with just the important data
     with open(get_path_file("USvideos_clean.csv"), "w", encoding="utf8") as f:
         for line in lines:
-           if (line[0:2] != r"\n"):
+           if (line[0:2] != r"\n" and len(line) > 200):
                 f.write(line)
 
 
