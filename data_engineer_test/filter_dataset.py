@@ -26,8 +26,11 @@ def main():
     with open(get_path_file("USvideos_clean.csv"), "w", encoding="utf8") as f:
         f.write(lines[0])
         for line in lines:
-            if (line[11] == ','):
-                f.write(line)
+            try:
+                if (line[11] == ','):
+                    f.write(line)
+            except:
+                pass
 
 
 
