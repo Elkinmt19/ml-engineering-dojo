@@ -67,3 +67,6 @@ ENV/
 
 # -------- VSCODE IGNORES ------
 .vscode
+
+# Jupyter ignores
+.ipynb_checkpoints
