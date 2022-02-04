@@ -70,3 +70,4 @@ ENV/
 
 # Jupyter ignores
 .ipynb_checkpoints
+.DS_Store
