@@ -25,21 +25,3 @@ You must use Pandas to answer the following questions:
 * Identify the most popular occupation for those who earn >50K in India. 
 
 Use the starter code in the file `demographic_data_analyzer`. Update the code so all variables set to "None" are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
-
-Unit tests are written for you under `test_module.py`.
-
-### Development
-
-For development, you can use `main.py` to test your functions. Click the "run" button and `main.py` will run.
-
-### Testing 
-
-We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
-
-### Submitting
-
-Copy your project's URL and submit it to freeCodeCamp.
-
-### Dataset Source
-
-Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
