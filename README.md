@@ -2,7 +2,7 @@
 
 This is a repository created to acquire and develop all the necessary skills to become a data scientist. This project has a lot of projects related to data analysis with Python, using tools such as NumPy, Pandas and Matplotlib. It also has machine learning projects using technologies such as Sklearn, TensorFlow and AWS SageMaker.
  <br>  
- <img src="https://github.com/Elkinmt19/data-science-dojo/blob/main/assets/imgs/datascience_wallpaper.jpeg"
+ <img src="https://github.com/Elkinmt19/data-science-dojo/blob/main/assets/imgs/sagemaker.gif"
       width="400"/>
  <img src="https://github.com/Elkinmt19/data-science-dojo/blob/main/assets/imgs/data_science_gif.gif"
       width="400"/>
