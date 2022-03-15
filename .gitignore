@@ -51,8 +51,6 @@ srv_gen
 *.smoketest
 *.cfgc
 *_msgs/src/
-*/src/**/cfg
-*/*/src/**/*
 
 # pyenv
 .python-version
