@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setup(
 
     # Library name (same as "pip install ____")
-    name='classchallenges',
+    name='time_series_md',
 
     author='Elkin Javier Guerra Galeano',
 
