@@ -11,6 +11,8 @@ setup(
 
     author='Elkin Javier Guerra Galeano',
 
+    author_email='elkinmt19@gmail.com',
+
     # Package version (MAJOR_VERSION.MINOR_VERSION.MAINTENANCE_VERSION)
     version='0.0.1',
 
@@ -22,9 +24,6 @@ setup(
     # Long package description
     long_description=long_description,
     long_description_content_type="text/markdown",
-
-    # Our main folder to build the package
-    package_dir={'': 'src'},
 
     # Add library dependencies
     install_requires=[
