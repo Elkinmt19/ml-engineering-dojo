@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setup(
 
     # Library name (same as "pip install ____")
-    name='time-series-forecasting',
+    name='time_series_forecasting',
 
     author='Elkin Javier Guerra Galeano',
 
