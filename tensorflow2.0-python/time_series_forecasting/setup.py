@@ -25,6 +25,9 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 
+    # Define the package's structure
+    packages=find_packages(),
+
     # Add library dependencies
     install_requires=[
         "numpy",
