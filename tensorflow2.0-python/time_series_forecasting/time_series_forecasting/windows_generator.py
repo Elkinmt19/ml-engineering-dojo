@@ -100,14 +100,14 @@ class WindowGenerator():
 
         plt.xlabel('Time [h]')
 
-    def make_dataset(self, data):
+    def make_dataset(self, data, shuffle=True):
         data = np.array(data, dtype=np.float32)
         ds = tf.keras.utils.timeseries_dataset_from_array(
             data=data,
             targets=None,
             sequence_length=self.total_window_size,
             sequence_stride=1,
-            shuffle=True,
+            shuffle=shuffle,
             batch_size=self.batch_size
         )
 
@@ -129,7 +129,7 @@ class WindowGenerator():
 
     @property
     def complete(self):
-        return self.make_dataset(self.complete_df)
+        return self.make_dataset(self.complete_df, shuffle=False)
 
     @property
     def example(self):
