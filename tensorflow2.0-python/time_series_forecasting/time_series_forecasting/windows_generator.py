@@ -4,6 +4,7 @@ import sys
 
 # External imports 
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -18,6 +19,7 @@ class WindowGenerator():
         self.train_df = train_df
         self.val_df = val_df
         self.test_df = test_df
+        self.complete_df = pd.concat([train_df,val_df,test_df])
 
         # Work out the label column indices.
         self.label_columns = label_columns
@@ -63,7 +65,7 @@ class WindowGenerator():
 
         return inputs, labels
 
-    def plot(self, model=None, plot_col='T (degC)', max_subplots=3):
+    def plot(self, model=None, plot_col='x', max_subplots=3):
         inputs, labels = self.example
         plt.figure(figsize=(12, 8))
         plot_col_index = self.column_indices[plot_col]
@@ -105,7 +107,7 @@ class WindowGenerator():
             shuffle=True,
             batch_size=32,)
 
-        ds = ds.map(self.split_window)
+        ds = ds.map(self.split_window())
 
         return ds
 
@@ -120,6 +122,10 @@ class WindowGenerator():
     @property
     def test(self):
         return self.make_dataset(self.test_df)
+
+    @property
+    def complete(self):
+        return self.make_dataset(self.complete_df)
 
     @property
     def example(self):
