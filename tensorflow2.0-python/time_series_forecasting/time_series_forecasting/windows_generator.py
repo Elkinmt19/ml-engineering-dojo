@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 class WindowGenerator():
     def __init__(
         self, input_width, label_width, shift,
-        train_df, val_df, test_df,
+        train_df, val_df, test_df, batch_size,
         label_columns=None
     ):
         # Store the raw data.
@@ -20,6 +20,9 @@ class WindowGenerator():
         self.val_df = val_df
         self.test_df = test_df
         self.complete_df = pd.concat([train_df,val_df,test_df])
+
+        # Variables for the Tensors
+        self.batch_size = batch_size
 
         # Work out the label column indices.
         self.label_columns = label_columns
@@ -105,7 +108,8 @@ class WindowGenerator():
             sequence_length=self.total_window_size,
             sequence_stride=1,
             shuffle=True,
-            batch_size=32,)
+            batch_size=self.batch_size
+        )
 
         ds = ds.map(self.split_window)
 
