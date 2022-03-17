@@ -107,7 +107,7 @@ class WindowGenerator():
             shuffle=True,
             batch_size=32,)
 
-        ds = ds.map(self.split_window())
+        ds = ds.map(self.split_window)
 
         return ds
 
