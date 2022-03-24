@@ -1,0 +1,3 @@
+# Submit custom code
+
+In this [section](https://sagemaker-workshop.com/custom/code.html), you will train a neural network locally on the location from where this notebook is run (typically the SageMaker Notebook instance) using MXNet. You will then see how to create an endpoint from the trained MXNet model and deploy it on SageMaker. You will then inference from the newly created SageMaker endpoint. For this section, you’ll be using the MNIST dataset.
