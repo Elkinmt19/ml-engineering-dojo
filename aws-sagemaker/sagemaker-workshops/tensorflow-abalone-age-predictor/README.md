@@ -1,0 +1,3 @@
+# Use your own custom algorithms
+
+In this [section](https://sagemaker-workshop.com/custom/algo.html), you’ll create your own training script using TensorFlow and the building blocks provided in tf.layers, which will predict the ages of abalones based on their physical measurements. It’s possible to estimate the age of an abalone (sea snail) by the number of rings on its shell. In this section, you’ll be using the UCI Abalone dataset.
