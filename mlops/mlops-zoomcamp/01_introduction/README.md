@@ -21,7 +21,7 @@ The main goal of this module is to build and train a model in order to add to it
 The algorithm used to build and train the model to predict the duration time of a specific taxi ride in NYC was a linear regression algorithm, the residuals plot of the resulted model was the following:
 
 <p align="center">
-  <img src="assets/imgs/residuals_plot.png" width=80%/>
+  <img src="assets/imgs/residuals_plot.png" width=50%/>
 </p>
 
 The resulted model doesn't have a great performance how we can see in the residuals plot, in the next modules of the course we are going to improve the performance of this model using the good practices and tools of MLOps.
