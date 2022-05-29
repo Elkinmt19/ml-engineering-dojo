@@ -10,8 +10,6 @@ The file structure is the following:
 .
 |____models # This directory contains all the serialize models (artifacts)
 |____README.md
-|____data # This directory contains the .parquet files (dataset)
-|____assets # This directory contains some assets
 |____notebooks # This directory contains the notebooks used in this module
 ```
 

@@ -5,6 +5,17 @@ This is a full course of MLOps where is covered a lot of practical aspects of pr
   <img src="../assets/imgs/general_imgs/mlops_logo.png" width=50%/>
 </p>
 
+The file structure is the following:
+
+```bash 
+# Files tree of the mlops-zoomcamp directory
+.
+|____README.md
+|____data # This directory contains the .parquet files (dataset)
+|____assets # This directory contains some assets
+|____01_introduction # First module of the course, the introduction to MLOps
+```
+
 ## Instructors of the course
 - Larysa Visengeriyeva
 - Cristian Martinez
