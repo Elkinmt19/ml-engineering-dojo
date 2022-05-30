@@ -6,7 +6,7 @@ First at all, it is used the [NYC taxi dataset](https://www1.nyc.gov/site/tlc/ab
 The file structure is the following:
 
 ```bash 
-# Files tree of the 01-introduction directory
+# Files tree of the 01_introduction directory
 .
 |____models # This directory contains all the serialize models (artifacts)
 |____README.md
