@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  mysql_db_backend_store:
+    container_name: mysql_db_backend_store
+    image: mysql:5.7 # Specific version in order to be able to connect with the container
+    # Important command to allow legacy authentications for old versions
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mlflow_entities_db
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_db_backend_store_volume:/var/lib/mysql
+      - ./db:/docker-entrypoint-initdb.d
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+
+volumes:
+  mysql_db_backend_store_volume:
+    name: "mysql_db_backend_store_volume"
