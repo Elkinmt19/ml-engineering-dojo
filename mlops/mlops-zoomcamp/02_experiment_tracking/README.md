@@ -26,5 +26,5 @@ To setup correctly this container refer to [mysql_backend_store](mysql_backend_s
 After setting up the MySQL docker container, the tracking local server of MLflow can be launch using the container as the backend store using the following command:
 
 ```bash 
-mlflow ui --backend-store-uri mysql+mysqldb://root:root@127.0.0.1/mlflow_entities_db
+mlflow server --backend-store-uri mysql+mysqldb://root:root@127.0.0.1/mlflow_entities_db --default-artifact-root <artifacts_root_dir>
 ```
