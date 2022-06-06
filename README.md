@@ -1,6 +1,7 @@
-# <img src="https://github.com/Elkinmt19/data-science-dojo/blob/main/assets/imgs/robotboy_fly.gif"/> THE DATA SCIENCE DOJO <img src="https://github.com/Elkinmt19/data-science-dojo/blob/main/assets/imgs/robotboy_fly.gif"/>
 
-This is a repository created to acquire and develop all the necessary skills to become a data scientist. This project has a lot of projects related to data analysis with Python, using tools such as NumPy, Pandas and Matplotlib. It also has machine learning projects using technologies such as Sklearn, TensorFlow, Pytorch, MXNet and AWS SageMaker.
+# <p align="center"><img src="assets/imgs/ml_logo.png" width=10%/> THE ML ENGINEERING DOJO <img src="assets/imgs/ml_cloud_logo.png" width=10%/></p>
+
+This is a repository created to acquire and develop all the necessary skills to become a Machine Learning Engineer. This project has a lot of projects related to data analysis with Python, using tools such as NumPy, Pandas and Matplotlib. It also has machine learning projects using technologies such as Sklearn, TensorFlow, Pytorch, MXNet and AWS SageMaker.
  <br>  
  <img src="https://github.com/Elkinmt19/data-science-dojo/blob/main/assets/imgs/sagemaker.gif"
       width="400"/>
