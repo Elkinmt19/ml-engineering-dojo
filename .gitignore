@@ -77,3 +77,6 @@ ENV/
 # MLflow ignores
 mlruns
 [0-9]
+
+# Prefect ignores
+prefect-storage
