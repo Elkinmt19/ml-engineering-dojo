@@ -80,3 +80,6 @@ mlruns
 
 # Prefect ignores
 prefect-storage
+
+# Data formats ignores
+*.parquet
