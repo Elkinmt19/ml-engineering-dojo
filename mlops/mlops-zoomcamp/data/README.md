@@ -3,7 +3,7 @@
 <p align="center">
   <img src="../assets/imgs/nyc-tlc-logo.svg" width=70%/>
 </p>
-This directory is where the datasets needed to run the different scripts and notebooks of this course. This datasets are files that contains different information about the taxis of New York City.
+This directory is where the datasets needed to run the different scripts and notebooks of this course have to be saved. This datasets are files that contains different information about the taxis of New York City.
 
 To run properly all the scripts of this course the files needed are the followings:
 
