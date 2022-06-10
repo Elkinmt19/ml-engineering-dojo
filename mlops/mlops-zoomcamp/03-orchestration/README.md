@@ -49,3 +49,12 @@ Found the following storage types:
     Store data in a temporary directory in a run's local file system.
 ```
 There are some options to define a storage for prefect, we just have to use one.
+
+One important functionality of prefect is the ability to deploy and program schedule jobs in order to create and run workflows automatically, in order to deploy this kind of jobs we first need to define a python script defining an `DeploymentSpec` prefect object and then use the following command:
+```bash
+prefect deployment create <python_script_file> # This is the python scripts where the <DeploymentSpec> was define
+```
+Now that the deployment has been setup and programmed we need an agent to run the workflows, for this are use the `work-queue`, this can be created using the following command:
+```bash 
+prefect work-queue create <work-queue-name> --params
+```
