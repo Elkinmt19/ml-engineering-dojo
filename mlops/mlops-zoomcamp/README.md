@@ -15,6 +15,7 @@ The file structure is the following:
 |____assets # This directory contains some assets
 |____01_introduction # First module of the course, the introduction to MLOps
 |____02_experiment_tracking # Module two of the course, use of MLflow to keep tracking of the experiments metadata and model registry
+|____03_orchestration # Module three of the course, use of Prefect as workflow orchestrator in order to build and implement ML pipelines effectively
 ```
 
 ## Instructors of the course
