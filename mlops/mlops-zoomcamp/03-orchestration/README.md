@@ -5,13 +5,16 @@ In this module of the MLOps ZoomCamp is going to be covered the use of the `pref
   <img src="../assets/imgs/prefect_logo.png" width=60%/>
 </p>
 
-```bash 
-# Files tree of the 03_orchestration directory
-.
-|____artifacts # This directory contains all the serialize models (artifacts)
-|____README.md
-|____notebooks # This directory contains the notebooks used in this module
-|____scripts # This directory contains of the useful scripts to run this project 
+```bash
+📦 03-orchestration
+ ┣ 📂 artifacts # This directory contains all the serialize models (artifacts)
+ ┃ ┣ 📜 README.md
+ ┣ 📂 notebooks # This directory contains the notebooks used in this module
+ ┃ ┗ 📜 homework.ipynb
+ ┣ 📂 scripts # This directory contains of the useful scripts to run this project
+ ┃ ┣ 📜 get_path_dir.py
+ ┃ ┗ 📜 training_fhv_model.py
+ ┗ 📜 README.md
 ```
 
 Prefect is going to be used as the workflow orchestration tool to build the ML projects with the best practices of the MLOps culture.

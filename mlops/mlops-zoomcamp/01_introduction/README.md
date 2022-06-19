@@ -5,12 +5,14 @@ First at all, it is used the [NYC taxi dataset](https://www1.nyc.gov/site/tlc/ab
 
 The file structure is the following:
 
-```bash 
-# Files tree of the 01_introduction directory
-.
-|____models # This directory contains all the serialize models (artifacts)
-|____README.md
-|____notebooks # This directory contains the notebooks used in this module
+```bash
+📦 01_introduction
+ ┣ 📂 models # This directory contains all the serialize models (artifacts)
+ ┃ ┣ 📜 README.md
+ ┣ 📂 notebooks # This directory contains the notebooks used in this module
+ ┃ ┣ 📜 homework.ipynb
+ ┃ ┗ 📜 ride-duration-prediction.ipynb
+ ┗ 📜 README.md
 ```
 
 The main goal of this module is to build and train a model in order to add to it the good practices of mlops along the course, starting the next module adding to it the experiment tracking capability using the **mlflow** tool.

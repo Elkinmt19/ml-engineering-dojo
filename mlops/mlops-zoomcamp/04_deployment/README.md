@@ -1,17 +1,20 @@
 # Module 04 - Deployment
 In this module of the MLOps ZoomCamp is going to be covered the different ways of deployment a model into production environments, in order to achieve this goal is going to be used Docker as the containerization tool.
 
+The file structure is the following:
+
 <p align="center">
   <img src="../assets/imgs/docker-kubernetes.png" width=70%/>
 </p>
 
-```bash 
-# Files tree of the 04_deployment directory
-.
-|____README.md
-|____notebooks # This directory contains the notebooks used in this module
-|____scripts # This directory contains of the useful scripts to run this project 
-```
+```bash
+📦 04_deployment
+ ┣ 📂 notebooks # This directory contains the notebooks used in this module
+ ┣ 📂 scripts # This directory contains of the useful scripts to run this project
+ ┃ ┗ 📜 __init__.py
+ ┗ 📜 README.md
+````
+
 There are different ways of deploy a Machine Learning model, the most popular are:
 
 - Batch

@@ -9,17 +9,28 @@ In this module is going to be MLflow to build a ML env in order to make some exp
 
 The file structure is the following:
 
-```bash 
-# Files tree of the 02_experiment_tracking directory
-.
-|____artifacts # This directory contains all the serialize models (artifacts)
-|____README.md
-|____setup.py
-|____notebooks # This directory contains the notebooks used in this module
-|____scripts # This directory contains of the useful scripts to run this project 
-|____mysql_backend_store # Setup of the MySQL docker container 
+```bash
+📦 02_experiment_tracking
+ ┣ 📂 artifacts # This directory contains all the serialize models (artifacts)
+ ┃ ┣ 📜 README.md
+ ┣ 📂 mysql_backend_store # Setup of the MySQL docker container
+ ┃ ┣ 📂 db
+ ┃ ┃ ┣ 📜 create_db_schema.sql
+ ┃ ┃ ┗ 📜 refresh_root_config.sql
+ ┃ ┣ 📜 README.md
+ ┃ ┗ 📜 docker-compose.yml
+ ┣ 📂 notebooks # This directory contains the notebooks used in this module
+ ┃ ┗ 📜 homework.ipynb
+ ┣ 📂 scripts # This directory contains of the useful scripts to run this project
+ ┃ ┣ 📜 __init__.py
+ ┃ ┣ 📜 get_path_dir.py
+ ┃ ┣ 📜 hpo.py
+ ┃ ┣ 📜 preprocess_pipeline.py
+ ┃ ┣ 📜 register_model.py
+ ┃ ┗ 📜 train.py
+ ┣ 📜 README.md
+ ┗ 📜 setup.py
 ```
-
 
 Before start executing the different scripts and notebooks of this module it is necessary to first setup the MySQL docker container that going to be used as the backend store of the MLflow model registry capability.
 
