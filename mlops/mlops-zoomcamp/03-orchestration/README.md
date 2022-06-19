@@ -5,6 +5,8 @@ In this module of the MLOps ZoomCamp is going to be covered the use of the `pref
   <img src="../assets/imgs/prefect_logo.png" width=60%/>
 </p>
 
+The file structure is the following:
+
 ```bash
 📦 03-orchestration
  ┣ 📂 artifacts # This directory contains all the serialize models (artifacts)
