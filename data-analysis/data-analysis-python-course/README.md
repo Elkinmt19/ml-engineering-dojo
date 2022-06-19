@@ -47,6 +47,6 @@ The file structure of the course is:
  ┗ 📜 README.md
 ```
 
-This course is bring by [freeCodeCamp](https://www.freecodecamp.org/learn).
+This course is given by [freeCodeCamp](https://www.freecodecamp.org/learn).
 
 Refer to [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/) to know more about the course.
