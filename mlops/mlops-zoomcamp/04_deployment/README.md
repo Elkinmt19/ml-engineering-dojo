@@ -1,11 +1,11 @@
 # Module 04 - Deployment
 In this module of the MLOps ZoomCamp is going to be covered the different ways of deployment a model into production environments, in order to achieve this goal is going to be used Docker as the containerization tool.
 
-The file structure is the following:
-
 <p align="center">
   <img src="../assets/imgs/docker-kubernetes.png" width=70%/>
 </p>
+
+The file structure is the following:
 
 ```bash
 📦 04_deployment
