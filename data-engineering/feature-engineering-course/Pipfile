@@ -11,6 +11,7 @@ pandas = "*"
 scikit-learn = "*"
 scipy = "*"
 statsmodels = "*"
+ipykernel = "*"
 
 [dev-packages]
 
