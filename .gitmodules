@@ -1,0 +1,3 @@
+[submodule "data-engineering/feature-engineering-course/notebooks/feature-engineering-for-machine-learning"]
+	path = data-engineering/feature-engineering-course/notebooks/feature-engineering-for-machine-learning
+	url = https://github.com/solegalli/feature-engineering-for-machine-learning.git
