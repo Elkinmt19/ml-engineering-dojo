@@ -12,22 +12,31 @@ The file structure of this project is the following:
 📦 feature-engineering-course
  ┣ 📂 assets
  ┃ ┣ 📂 imgs
- ┃ ┣ 📂 pdfs
- ┃ ┃ ┣ 📂 Feature-Engineering-Course-Presentations
- ┃ ┃ ┃ ┣ 📂 Section_02_VariableTypes
- ┃ ┃ ┃ ┣ 📂 Section_03_VariableCharacteristics
- ┃ ┃ ┃ ┣ 📂 Section_04_MissingImputation
- ┃ ┃ ┃ ┣ 📂 Section_05_MultivariateImputation
- ┃ ┃ ┃ ┣ 📂 Section_06_CategoricalEncoding
- ┃ ┃ ┃ ┣ 📂 Section_07_VariableTransformation
- ┃ ┃ ┃ ┣ 📂 Section_08_Discretisation
- ┃ ┃ ┃ ┣ 📂 Section_09_OutlierEngineering
- ┃ ┃ ┃ ┣ 📂 Section_10_FeatureScaling
- ┃ ┃ ┃ ┣ 📂 Section_11_MixedVariables
- ┃ ┃ ┃ ┣ 📂 Section_12_EngineeringDatetime
- ┃ ┃ ┃ ┣ 📂 Section_13_AssemblingPipeline
+ ┃ ┗ 📂 pdfs
  ┣ 📂 data
- ┃ ┗  📜 README.md
+ ┣ 📂 feature-engineering-for-machine-learning
+ ┃ ┣ 📂 .github
+ ┃ ┃ ┗ 📜 FUNDING.yml
+ ┃ ┣ 📂 Section-01-Datasets
+ ┃ ┣ 📂 Section-02-Types-of-Variables
+ ┃ ┣ 📂 Section-03-Variable-Characteristics
+ ┃ ┣ 📂 Section-04-Missing-Data-Imputation
+ ┃ ┣ 📂 Section-05-Multivariate-Imputation
+ ┃ ┣ 📂 Section-06-Categorical-Encoding
+ ┃ ┣ 📂 Section-07-Variable-Transformation
+ ┃ ┣ 📂 Section-08-Discretisation
+ ┃ ┣ 📂 Section-09-Outlier-Engineering
+ ┃ ┣ 📂 Section-10-Feature-Scaling
+ ┃ ┣ 📂 Section-11-Mixed-Variables
+ ┃ ┣ 📂 Section-12-Engineering-Date-Time
+ ┃ ┣ 📂 Section-13-Putting-it-altogether
+ ┃ ┣ 📜 .git
+ ┃ ┣ 📜 .gitignore
+ ┃ ┣ 📜 LICENSE
+ ┃ ┣ 📜 README.md
+ ┃ ┣ 📜 SAVE_DATASETS_HERE.txt
+ ┃ ┣ 📜 feml_logo.png
+ ┃ ┗ 📜 requirements.txt
  ┣ 📜 Pipfile
  ┣ 📜 Pipfile.lock
  ┗ 📜 README.md
