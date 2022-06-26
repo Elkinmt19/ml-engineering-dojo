@@ -5,6 +5,18 @@ La estructura de los archivos es:
 
 ```bash
 📦 inference-statistics-course
+ ┣ 📂 estadistica-inferencial
+ ┃ ┣ 📂 datasets
+ ┃ ┣ 📂 docs
+ ┃ ┣ 📂 ejercicios
+ ┃ ┣ 📂 talleres_resueltos_extra
+ ┃ ┣ 📂 teoria
+ ┃ ┣ 📜 .git
+ ┃ ┣ 📜 .gitignore
+ ┃ ┣ 📜 NeymanPearson.Rmd
+ ┃ ┣ 📜 NeymanPearson.pdf
+ ┃ ┣ 📜 README.md
+ ┃ ┗ 📜 estadistica-inferencial.Rproj
  ┣ 📂 notebooks
  ┃ ┣ 📜 ANOVA.ipynb
  ┃ ┣ 📜 Bondad de Ajuste.ipynb

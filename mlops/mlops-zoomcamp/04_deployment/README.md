@@ -10,8 +10,16 @@ The file structure is the following:
 ```bash
 📦 04_deployment
  ┣ 📂 notebooks # This directory contains the notebooks used in this module
+ ┃ ┣ 📜 homework.ipynb
+ ┃ ┗ 📜 ride-duration-prediction.ipynb
  ┣ 📂 scripts # This directory contains of the useful scripts to run this project
- ┃ ┗ 📜 __init__.py
+ ┃ ┣ 📜 __init__.py
+ ┃ ┣ 📜 get_path_dir.py
+ ┃ ┣ 📜 ride-duration.py.py
+ ┃ ┗ 📜 ride_prediction_prd.py
+ ┣ 📜 Dockerfile # Dockerfile to build the docker image of the model
+ ┣ 📜 Pipfile
+ ┣ 📜 Pipfile.lock
  ┗ 📜 README.md
 ```
 
