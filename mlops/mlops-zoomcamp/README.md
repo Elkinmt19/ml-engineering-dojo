@@ -5,18 +5,21 @@ This is a full course of MLOps where is covered a lot of practical aspects of pr
   <img src="../assets/imgs/general_imgs/mlops_logo.png" width=50%/>
 </p>
 
-The file structure is the following:
+## 📖 Course content
 
-```bash 
-# Files tree of the mlops-zoomcamp directory
-.
-|____README.md
-|____data # This directory contains the .parquet files (dataset)
-|____assets # This directory contains some assets
-|____01_introduction # First module of the course, the introduction to MLOps
-|____02_experiment_tracking # Module two of the course, use of MLflow to keep tracking of the experiments metadata and model registry
-|____03_orchestration # Module three of the course, use of Prefect as workflow orchestrator in order to build and implement ML pipelines effectively
-```
+| MLOps ZoomCamp | Description |
+| ------------- | - |
+| 🏁 **[Introduction to MLOps]** | A short introduction of MLOps, in this section is developed a simple model to be used in the course. |
+| 🧪 **[Experiment Tracking]** | Use MLflow to built and develop ML models, tracking the experiments in an efficient way. |
+| 🌀 **[Workflow Orchestration]** | Use Prefect as the workflow orchestration tool, in order to build and develop efficient and optimal ML Pipelines. |
+| 🚀 **[Deployment]** | Learn how to deploy a ML model in batch mode, as a web server and as a streaming application, using tools such as Docker. |
+| 🔎 **[Monitoring]** | Monitoring the behavior of the models onces they are in production environments. |
+
+[Introduction to MLOps]: ./01_introduction/
+[Experiment Tracking]: ./02_experiment_tracking/
+[Workflow Orchestration]: ./03_orchestration/
+[Deployment]: ./04_deployment/
+[Monitoring]: ./05_monitoring/
 
 ## Instructors of the course
 - Larysa Visengeriyeva
