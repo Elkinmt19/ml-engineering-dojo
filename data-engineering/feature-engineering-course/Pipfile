@@ -12,6 +12,10 @@ scikit-learn = "*"
 scipy = "*"
 statsmodels = "*"
 ipykernel = "*"
+feature-engineering-course = {editable = true, path = "."}
+matplotlib = "*"
+seaborn = "*"
+yellowbrick = "*"
 
 [dev-packages]
 

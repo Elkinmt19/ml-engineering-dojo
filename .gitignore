@@ -84,3 +84,4 @@ prefect-storage
 # Data formats ignores
 *.parquet
 *.csv
+*.data
