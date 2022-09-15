@@ -1,4 +1,4 @@
-# Machine Learning Operations (MLOps)
+# **Machine Learning Operations (MLOps)**
 
 **MLOps** is an ML engineering culture and practice that aims at unifying ML system development (Dev) and ML system operation (Ops). Practicing MLOps means that you advocate for automation and monitoring at all steps of ML system construction, including integration, testing, releasing, deployment and infrastructure management.
 
